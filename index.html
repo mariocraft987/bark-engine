@@ -64,6 +64,11 @@
         padding: 10px;
         box-sizing: border-box;
       }
+
+      .playroom {
+        border: 1px solid #000000;
+        background-color: white;
+      }
     </style>
   </head>
 
@@ -75,7 +80,9 @@
     </div>
     <div class="blockbar"></div>
     <div id="blocklyDiv"></div>
-    <div id="stage"></div>
+    <div id="stage">
+      <canvas style="playroom"></canvas>
+    </div>
 
     <!-- Toolbox Definition -->
     <xml
